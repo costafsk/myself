@@ -1,9 +1,7 @@
-import { defineNuxtConfig } from 'nuxt3'
+import { defineNuxtConfig } from 'nuxt3';
 
 export default defineNuxtConfig({
   typescript: {
-    shim: false, // I'm using Volar extension
-  },
+    shim: false // I'm using Volar extension
+  }
 });
-
-
