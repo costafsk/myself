@@ -1,5 +1,4 @@
-<template>
-  <main>
-    <h1>Heelo!</h1>
-  </main>
+<template lang="pug">
+main
+  h1 Hello World!
 </template>

@@ -1,6 +1,5 @@
-<template>
-  <div>
-    Only a layout
-    <slot />
-  </div>
+<template lang="pug">
+div
+  strong Only a layout
+  slot
 </template>
