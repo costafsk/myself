@@ -1,5 +1,4 @@
-<template>
-  <NuxtLayout name="default">
-    <NuxtPage />
-  </NuxtLayout>
+<template lang="pug">
+NuxtLayout(name="default")
+  NuxtPage
 </template>
