@@ -1,9 +1,9 @@
-import { defineNuxtConfig } from 'nuxt3'
+import { defineNuxtConfig } from 'nuxt3';
 
 export default defineNuxtConfig({
-  typescript: {
-    shim: false, // I'm using Volar extension
-  },
+  modules: ['@nuxtjs/color-mode'],
+  css: ['@/assets/sass/main.sass'],
+  colorMode: {
+    classSuffix: ''
+  }
 });
-
-
